@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 0%;
+    background-color: black;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 40px 0px 0px;
+    background: linear-gradient(gold, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 0px 2px gold,
+    0px 0px 10px gold;
+   
+}
+
+main{
+    background-color: black;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    align-items: center;
+}
+.Gasolina{
+    display: inline-flex;
+}
+h1{
+    color: gold;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+li,button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    display: inline-block;
+    padding: 0px 30px 0px 0px;
+    background: linear-gradient(gold, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    align-items: center;
+    
+}
+footer{
+    background-color: black;
+}
+h2{
+    background: linear-gradient(gold, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+h5{  background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.copyright{color: aliceblue;
+    size: 7px;
+    padding-left: 15%;
+    padding-bottom: 5%;
+    text-justify: inter-word;
+}
+.tyu{padding-left: 45%;}
+.container{
+    width: 60%;
+    height: 200px;
+    display: flex;
+    gap: 5px;
+    
+}
+.container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease-out 0.5s;
+    cursor: pointer;
+    align-items: center;
+}
+.container img:hover{
+    width: 100%;
+}
+.icons{
+    width: 15%;
+    height: 30px;
+    display: flex;
+    gap: 10px;
+    align-self: center;
+    padding-left: 44%;
+    padding-bottom: 10px;
+}
